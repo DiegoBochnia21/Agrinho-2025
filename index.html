@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website com Carrossel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>A cidade no campo</h1>
+      <nav id="menu">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="hamburger">&#9776;</label>
+        <ul class="menu-links">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Tecnologias</a></li>
+          <li><a href="#">Benefícios</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <img src="img/Banner.png" alt="Banner">
+  </section>
+
+  <section class="sobre">
+    <h2>O uso da Tecnologia na Agricultura</h2>
+    <p class="texto">A tecnologia tem transformado a agricultura em todo o mundo, trazendo inovações que tornam o trabalho no campo mais eficiente, produtivo e sustentável. Com o avanço das ferramentas digitais e automáticas, os agricultores têm acesso a informações precisas que ajudam a tomar decisões mais acertadas sobre o plantio, a irrigação, a colheita e o cuidado com o solo.</p>
+    <p class="texto">Entre as principais tecnologias utilizadas hoje estão os drones agrícolas, que sobrevoam as plantações para monitorar a saúde das lavouras e aplicar insumos com precisão. Outro destaque é a agricultura de precisão, que usa sensores e sistemas de GPS para mapear o terreno e distribuir sementes e fertilizantes de forma exata, evitando desperdícios e reduzindo impactos ambientais.</p>
+    <p class="texto">Também já existem tratores autônomos e colheitadeiras inteligentes, que operam com mínima intervenção humana, aumentando a produtividade e reduzindo custos.</p>
+    <p class="texto">Essas inovações aproximam o campo da cidade, pois garantem uma produção mais eficiente de alimentos e ajudam a enfrentar os desafios do século XXI, como o crescimento populacional e as mudanças climáticas. Com a tecnologia, o agricultor se torna ainda mais preparado para alimentar o mundo, cuidando do planeta e garantindo o futuro das próximas gerações.</p>
+
+  </section>
+
+  <section class="carrossel">
+    <div class="carrossel-container">
+      <!--<button class="prev" onclick="mover(-1)">&#10094;</button>-->
+      <div class="imagens" id="carrossel">
+        <img src="img/Carrossel1.png" alt="Imagem 1" class="img"id="carrossel">
+        <img src="img/carrossel2.png" alt="Imagem 2" class="img"id="carrossel">
+        <img src="img/carrossel3.png" alt="Imagem 3" class="img"id="carrossel">
+      </div>
+      <!--<button class="next" onclick="mover(1)">&#10095;</button> -->
+    </div>
+  </section>
+
+  <section class="final">
+    <p>Como mostrado acima, a tecnologia está presente de diversas formas na agricultura auxiliando o agricultor.</p>
+  </section>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>by Diego Rhian Bochnia</p>
+  </footer>
+</body>
+</html>
+
